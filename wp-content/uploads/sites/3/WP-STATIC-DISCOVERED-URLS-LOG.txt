@@ -1,0 +1,3 @@
+/wp-content/plugins/coblocks/dist/js/coblocks-animation.js
+/wp-content/plugins/coblocks/dist/js/coblocks-lightbox.js
+/wp-content/plugins/coblocks/dist/style-coblocks-1.css

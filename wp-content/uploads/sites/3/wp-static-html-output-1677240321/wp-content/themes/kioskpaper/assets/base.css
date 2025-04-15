@@ -1,0 +1,70 @@
+html {margin: 0;padding: 0;outline: 0;border: 0 none;overflow-y: auto;}
+html, body {color: #444;}
+body {margin: 0;padding: 0;outline: 0;border: 0 none;font-style: normal;font-weight: 500;line-height: 19px;font-family: Arial,Helvetica,sans-serif;height: 100%;}
+body * {padding: 0;margin: 0;}
+.wrap {text-align: left;font-size: inherit;overflow: hidden;}
+.inner {padding: 0;margin: 0 !important;}
+.contn {position: relative;overflow: hidden;min-width: 0;min-height: 0;z-index: 0;}
+.clearfix:after {content: "";display: block;height: 0;clear: both;visibility: hidden;}
+.clear {clear: both;padding: 0;}
+.clear {display: inline-block;}
+.clear {display: block;}
+* html .clearfix {height: 1%;}
+.right {float: right;display: inline-block;}
+.left {float: left;display: inline-block;}
+.center {margin: 0 auto;}
+.hidden {display: none;}
+.hide {visibility: hidden;left: -5000px;position: absolute;}
+.contn .ground {position: relative;z-index: -1;display: block;}
+div.side, div.menu {display: block;z-index: 1;position: relative;}
+ul.nav li {display: inline;overflow: hidden;}
+ul.nav li span {font-size: inherit;}
+ul.nav li.btn>a, ul.nav li>span.tail {float: left;}
+ul.nav li.btn {background-repeat: no-repeat;overflow: hidden;}
+ul.nav li.btn>a {background-repeat: repeat-x;padding: 0 5px;}
+ul.nav li>span.tail {background-repeat: no-repeat;min-width: 0;}
+ul.nav li:first-child, .first {margin-left: 0;margin-top: 0;}
+ul.nav li:last-child, .last {margin-right: 0;margin-bottom: 0;}
+ul.list li>a {display: block;}
+ul.list li>span.tail {display: block;}
+.beveled {border-top: 1px solid #fff;outline: 1px solid #ddd;}
+.input_btn {border-bottom: 1px solid #e7e7e7;margin: 3px 0 4px 4px;display: inline-block;border-right: 1px solid #e7e7e7;}
+.input_btn>span {border-bottom: 1px solid #999;border-left: 1px solid #ccc;display: block;background-color: #eee;height: 30px;border-top: 1px solid #ccc;border-right: 1px solid #999;}
+.input_btn input[type='submit'] {border-right: medium none;border-left: medium none;border-top: medium none;border-bottom: medium none;padding: 0 6px 0 6px;width: auto;font: 15px arial,sans-serif;background: none;height: 30px;color: #000;overflow: visible;cursor: pointer;outline-style: none;outline-color: invert;-moz-box-sizing: content-box;line-height: 30px;margin: 0;}
+input[type='text'].typing {color: #454545;}
+a>span {cursor: pointer;vertical-align: middle;}
+article, aside, header, hgroup, nav, figure, section, footer {display: block;}
+.debug {outline: solid gold 1px;}
+.debug-background {background: rgba(255,215,0,.2) !important;}
+div, span, a, img, h1, h2, h3, h4, h5, h6, hgroup, p, dl, dialog, dt, dd, ol, ul, li, abbr, acronym, address, b, big, blockquote, cite, code, del, dfn, em, i, ins, kbd, pre, q, samp, tt, var, small, strong, sub, sup, object, iframe, form, fieldset, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section, figure, menu, time, mark, audio, video {font-family: inherit;font-size: inherit;font-weight: inherit;font-style: inherit;vertical-align: baseline;white-space: normal;text-align: left;margin: 0;padding: 0;border: 0;outline: 0;background-color: transparent;}
+textarea {font-family: inherit;font-size: inherit;font-weight: normal;font-style: normal;white-space: normal;text-align: left;margin: 0;padding: 0;}
+article, aside, footer, header, nav, section, dialog, figure, hgroup, menu {display: block;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+del, ins {text-decoration: none;}
+ol, ul {list-style: none;}
+nav ul {list-style-type: none;}
+table {border-collapse: separate;border-spacing: 0;background-color: transparent;width: auto;height: auto;}
+:focus {outline: 0;}
+blockquote:before, blockquote:after, q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+input {margin: 0;}
+div {display: block;position: relative;}
+a, a:active, a:focus, a:hover, a:link, a:visited {border: 0 none;outline: 0 none;text-decoration: none;}
+h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;vertical-align: text-bottom;font-weight: 500;line-height: inherit;}
+strong {font-weight: 700;}
+th {cursor: default;}
+ul {list-style: none;margin: 0;padding: 0;white-space: nowrap;}
+li {outline: 0 none;}
+li ul {top: 0;margin: 0;}
+input[type='button'], input[type='submit'], input[type='checkbox'], input[type='image'], input[type='radio'], input[type='reset'], select, button {cursor: pointer;}
+button {line-height: inherit;font-family: inherit;font-size: .9em;font-style: normal;vertical-align: middle;min-height: 20px;}
+select, input[type='text'], input[type='password'] {width: auto;font-size: 1em;}
+input[type='hidden'] {display: none;}
+select, input[type='text'], input[type='password'], input[type='image'], textarea {padding: 1px;border: 1px solid #eee;font-family: "Segoe UI",sans-serif;outline: 0 none;}
+input {-moz-box-sizing: content-box;}
+textarea {overflow: auto;}
+select option {padding-left: 2px;}
+form {position: relative;}
+input[type='checkbox'], input[type='radio'] {margin-left: 0;outline: 0;width: 13px;height: 13px;overflow: hidden;}
+label {display: inline;position: relative;}
+a>span {font: inherit;}
